@@ -1,0 +1,37 @@
+
+<html>
+    <head>
+        <link rel="icon" type="image/x-icon" href="icon.ico">
+    <style>
+    body {
+        background-image:url('a_different_sleep.gif');
+        background-size:30%;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-color: black;
+        height:100%;
+        width:100%;
+        overflow:hidden;
+    }
+    </style>
+    <title></title>
+    </head>
+    <body>
+    
+    <audio autoplay id="incipio">
+    <source src="sleeptalk.mp3" type="audio/mp3">
+    </audio>
+    
+    <script type="text/javascript">
+        var murmuro = document.getElementById("incipio");
+        setTimeout(function() {
+        murmuro.play();
+        },500);
+        var timer = setTimeout(function() {
+            window.location='asleep/rememberme.html'
+        }, 4000);
+    </script>
+    
+    </body>
+    </html>
