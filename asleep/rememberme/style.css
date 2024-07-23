@@ -1,0 +1,18 @@
+body {
+    color: rgb(0, 0, 0);
+    background: url('/web/20160320090711im_/http://johnisdead.com/foggyworld248.jpg') 50% 50% no-repeat fixed; 
+    background-color: black;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
