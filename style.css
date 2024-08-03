@@ -1,0 +1,29 @@
+body {
+    color: red;
+    background-color: black;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+playback timings (ms):
+  captures_list: 0.513
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.008
+  esindex: 0.011
+  cdx.remote: 30.72
+  LoadShardBlock: 34.189 (3)
+  PetaboxLoader3.datanode: 56.996 (4)
+  load_resource: 159.527
+  PetaboxLoader3.resolve: 115.969
+*/
