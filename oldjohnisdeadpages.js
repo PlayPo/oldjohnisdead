@@ -4,7 +4,7 @@ var arLinks = new Array();
 
 arLinks[0] = "index";
 arLinks[1] = "neverending_dream";
-arLinks[2] = "in_my_head";
+arLinks[2] = "in_m_yhead";
 arLinks[3] = "getout";
 arLinks[4] = "lost_in_my_mind";
 arLinks[5] = "misleading";
