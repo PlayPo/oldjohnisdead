@@ -44,6 +44,7 @@ arLinks[38] = "enter"
 arLinks[39] = "notbreathe"
 arLinks[40] = "diarys"
 arLinks[41] = "gone"
+arLinks[42] = "excursion"
 
 i = Math.floor( Math.random() * arLinks.length );
 window.location = arLinks[i];
