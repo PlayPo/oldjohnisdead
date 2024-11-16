@@ -45,7 +45,20 @@ arLinks[39] = "notbreathe"
 arLinks[40] = "diarys"
 arLinks[41] = "gone"
 arLinks[42] = "excursion"
-arLinks[42] = "https://www.youtube.com/@silentdork"
+arLinks[44] = "get_out"
+arLinks[45] = "atrapado"
+arLinks[46] = "trapped"
+arLinks[47] = "john"
+arLinks[48] = "saveus"
+arLinks[49] = "john"
+arLinks[50] = "goderme"
+arLinks[51] = "go"
+arLinks[52] = "exit"
+arLinks[53] = "dead"
+arLinks[54] = "pain"
+arLinks[55] = "https://www.youtube.com/@silentdork"
+
+
 
 i = Math.floor( Math.random() * arLinks.length );
 window.location = arLinks[i];
