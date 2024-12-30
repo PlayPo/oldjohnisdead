@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+  <link rel="icon" type="image/x-icon" href="icon.ico">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="icon" type="image/x-icon" href="icon.ico">
 
-
-    <style>
+<style>
 body {
     background:black;
     background-image:url('whatis.gif');
@@ -19,17 +13,11 @@ body {
     height:100%;
     width:100%;
 }
-        </style>   
+</style>
 </head>
-<body>
+
+<audio autoplay loop>
+  <source src="lost_my_mind.mp3" type="audio/mp3">
+</audio>
 </body>
-<audio loop autoplay id="incipio">
-    <source src="lost_my_mind.mp3" type="audio/mpeg">
-    </audio>
-    <script type="text/javascript">
-        var murmuro = document.getElementById("incipio");
-        setTimeout(function() {
-        murmuro.play();
-        },500);
-    </script>
 </html>
