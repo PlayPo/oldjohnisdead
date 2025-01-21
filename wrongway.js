@@ -2,7 +2,7 @@ var i;
 
 var arLinks = new Array();
 
-arLinks[0] = "index";
+arLinks[0] = "ERROR";
 arLinks[1] = "neverending_dream";
 arLinks[2] = "in_m_yhead";
 arLinks[3] = "getout";
