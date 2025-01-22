@@ -87,6 +87,8 @@ arLinks[81] = "wool"
 arLinks[82] = "https://www.youtube.com/@silentdork"
 arLinks[83] = "sav-_us-"
 arLinks[84] = "help"
+arLinks[85] = "saved"
+arLinks[86] = "lunar"
 
 
 i = Math.floor( Math.random() * arLinks.length );
